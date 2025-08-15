@@ -1,10 +1,11 @@
-// next.config.mjs
+// next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export',
-    trailingSlash: true,
-    images: { unoptimized: true }
-    // basePath / assetPrefix НЕ нужны, т.к. у тебя корневой домен, а не поддомен репозитория
-  };
-  export default nextConfig;
-  
+  // Генерим статический экспорт в папку `out/`
+  output: 'export',
+  // Для GitHub Pages нужно отключить встроенную оптимизацию картинок
+  images: { unoptimized: true },
+  // Чтобы относительные ссылки работали как надо на Pages
+  trailingSlash: true,
+};
+module.exports = nextConfig;
