@@ -1,0 +1,14 @@
+# Node / Next
+node_modules/
+.next/
+out/
+dist/
+.build/
+.vercel/
+.turbo/
+*.log
+
+# OS/IDE
+.DS_Store
+.idea/
+.vscode/
