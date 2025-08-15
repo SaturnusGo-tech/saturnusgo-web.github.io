@@ -1,7 +1,7 @@
 # Node / Next
 node_modules/
 .next/
-out/
+
 dist/
 .build/
 .vercel/
