@@ -1,2 +1,3 @@
-/saturnusgo-landing/
-.DS_Store
+saturnusgo-landing/
+.next/
+node_modules/
