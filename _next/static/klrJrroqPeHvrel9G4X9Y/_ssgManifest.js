@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fpartners\u002Fcareers\u002F[id]","\u002Fsrc\u002Fmodules\u002Fcore-partners\u002Froutes\u002Fcareers\u002F[id]","\u002Fumbrella-home\u002F[locale]\u002Fprivacy-policy","\u002Fumbrella-home\u002F[locale]\u002Fterms-of-use"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
