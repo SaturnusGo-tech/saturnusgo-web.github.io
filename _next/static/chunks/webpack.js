@@ -163,7 +163,7 @@
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = function(chunkId) {
 /******/ 			// return url for filenames based on template
-/******/ 			return "static/chunks/" + chunkId + ".js";
+/******/ 			return undefined;
 /******/ 		};
 /******/ 	}();
 /******/ 	
@@ -181,7 +181,7 @@
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.miniCssF = function(chunkId) {
 /******/ 			// return url for filenames based on template
-/******/ 			return "static/css/" + chunkId + ".css";
+/******/ 			return undefined;
 /******/ 		};
 /******/ 	}();
 /******/ 	
@@ -192,7 +192,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/getFullHash */
 /******/ 	!function() {
-/******/ 		__webpack_require__.h = function() { return "1ce3a1af80e52ad8"; }
+/******/ 		__webpack_require__.h = function() { return "bb4c771933e80218"; }
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/global */
@@ -785,23 +785,7 @@
 /******/ 				createStylesheet(chunkId, fullhref, resolve, reject);
 /******/ 			});
 /******/ 		}
-/******/ 		// object to store loaded CSS chunks
-/******/ 		var installedCssChunks = {
-/******/ 			"webpack": 0
-/******/ 		};
-/******/ 		
-/******/ 		__webpack_require__.f.miniCss = function(chunkId, promises) {
-/******/ 			var cssChunks = {"_app-pages-browser_app_src_modules_core-tms_presentation_cases_inspector_markdown_Initialized-9e0e62":1};
-/******/ 			if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
-/******/ 			else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
-/******/ 				promises.push(installedCssChunks[chunkId] = loadStylesheet(chunkId).then(function() {
-/******/ 					installedCssChunks[chunkId] = 0;
-/******/ 				}, function(e) {
-/******/ 					delete installedCssChunks[chunkId];
-/******/ 					throw e;
-/******/ 				}));
-/******/ 			}
-/******/ 		};
+/******/ 		// no chunk loading
 /******/ 		
 /******/ 		var oldTags = [];
 /******/ 		var newTags = [];
@@ -1416,11 +1400,6 @@
 /******/ 		var chunkLoadingGlobal = self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
-/******/ 	}();
-/******/ 	
-/******/ 	/* webpack/runtime/nonce */
-/******/ 	!function() {
-/******/ 		__webpack_require__.nc = undefined;
 /******/ 	}();
 /******/ 	
 /************************************************************************/
