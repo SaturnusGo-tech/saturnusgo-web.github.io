@@ -1,0 +1,37 @@
+{
+  "locale": "en",
+  "capturedDate": "2026-11-15",
+  "surface": "isolated synthetic training workspace",
+  "production": false,
+  "containsPlaintextSecrets": false,
+  "captures": [
+    {
+      "state": "workspace",
+      "src": "/falcon/docs/2026-11-preview/tdm-workspace-en-20261115.jpg",
+      "width": 825,
+      "height": 684,
+      "sha256": "1b4faab191e27f225e5dc92e005a71bd09ba35d4dc47321d2ffe57debbc7788d"
+    },
+    {
+      "state": "source-query",
+      "src": "/falcon/docs/2026-11-preview/tdm-source-query-en-20261115.jpg",
+      "width": 825,
+      "height": 684,
+      "sha256": "016e904ec9009ace04a88634f6dd6a91466410d37169765a6e73290a9cc02464"
+    },
+    {
+      "state": "case-picker",
+      "src": "/falcon/docs/2026-11-preview/tdm-case-picker-en-20261115.jpg",
+      "width": 825,
+      "height": 684,
+      "sha256": "18ecf3087712e731a017d098427ab54088a8e8cc98b9bc438a8bd23ac7cd9e59"
+    },
+    {
+      "state": "credentials",
+      "src": "/falcon/docs/2026-11-preview/tdm-credentials-en-20261115.jpg",
+      "width": 825,
+      "height": 684,
+      "sha256": "0fe674f7c3dff17febf0b34f8f0d9cbdd8972b9b63189294c61d321bba410d8f"
+    }
+  ]
+}
