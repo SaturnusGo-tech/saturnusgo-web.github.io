@@ -1,0 +1,22 @@
+{
+  "verifiedAt": "2026-11-15",
+  "assets": [
+    {
+      "asset": "claude.svg",
+      "officialPage": "https://www.anthropic.com/news",
+      "downloadUrl": "https://www.anthropic.com/press-kit",
+      "archiveMember": "Anthropic media resources/Anthropic logos/Claude logos/3 Claude Spark/SVG/Claude Spark - Clay.svg",
+      "sha256": "6d53db4be375e899c937c26cf16684a80d6e869b1928d72b37748bef2560e219",
+      "bytes": 2580,
+      "modifications": "None. Exact official SVG bytes."
+    },
+    {
+      "asset": "grok.svg",
+      "officialPage": "https://grok.com",
+      "downloadUrl": "https://grok.com/images/favicon.svg",
+      "sha256": "c3db0dfaf760b702b8490c6cbefe07fd8bfe00db43cae6a0acccf768f44d6179",
+      "bytes": 9758,
+      "modifications": "None. Exact official SVG bytes. Official favicon explicitly linked from grok.com; brand download https://data.x.ai/logos/SpaceXAI_Grok_Assets.zip returned HTTP 403 from this environment."
+    }
+  ]
+}
