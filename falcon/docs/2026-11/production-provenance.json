@@ -3363,6 +3363,98 @@
       "sha256": "76e63fb5f57dd691c6257786fb7a732ac3bbc200b9c4d62f1c9e8536cdd776b0",
       "rawFilename": "linear.app_mercury-rucks_settings_api_webhooks_new.png",
       "method": "Actual authenticated Linear browser capture; JPEG transcoded without crop, resize or semantic edits."
+    },
+    {
+      "file": "/falcon/docs/2026-11/tdm-workspace-en-20261115.jpg",
+      "locale": "en",
+      "surface": "falcon",
+      "uiLocale": "en",
+      "contentLanguage": "en",
+      "source": "authenticated-production-umbrella",
+      "workspace": "Umbrella Home",
+      "releaseSha": "6b68ee61b9a93cd8a712aa06e9972b5c480b00c0",
+      "origin": "https://umbrella-falcon.saturnusgo.com",
+      "capturedAt": "2026-11-15T02:43:54.332805+00:00",
+      "viewport": {
+        "width": 1728,
+        "height": 1117,
+        "deviceScaleFactor": 2
+      },
+      "sourceUrl": "https://umbrella-falcon.saturnusgo.com/work/?workspaceId=workspace_umbrella_home&projectId=project_59c48ce2121f461c8e604f35a9706aa3&view=test-data",
+      "redactedQueryKeys": [],
+      "rawSha256": "abdaf97351a7554ae5d5f4ae762f3380bca277701a71ba4a1fc5048fa79da904",
+      "sha256": "10dbc7bbe4eaf431090aa925f66155eb50108476cedeb8a688cf817f5388697b",
+      "rawFilename": "tdm-workspace-en.png",
+      "method": "Actual authenticated production browser/app capture; JPEG transcoded without crop, resize or semantic edits."
+    },
+    {
+      "file": "/falcon/docs/2026-11/tdm-source-query-en-20261115.jpg",
+      "locale": "en",
+      "surface": "falcon",
+      "uiLocale": "en",
+      "contentLanguage": "en",
+      "source": "authenticated-production-umbrella",
+      "workspace": "Umbrella Home",
+      "releaseSha": "6b68ee61b9a93cd8a712aa06e9972b5c480b00c0",
+      "origin": "https://umbrella-falcon.saturnusgo.com",
+      "capturedAt": "2026-11-15T02:44:33.162230+00:00",
+      "viewport": {
+        "width": 1728,
+        "height": 1117,
+        "deviceScaleFactor": 2
+      },
+      "sourceUrl": "https://umbrella-falcon.saturnusgo.com/work/?workspaceId=workspace_umbrella_home&projectId=project_59c48ce2121f461c8e604f35a9706aa3&view=test-data",
+      "redactedQueryKeys": [],
+      "rawSha256": "8d0938b222ce4d16e6c61637b31597952e764cdc50d9bc623efde1658376d871",
+      "sha256": "39442ee1c3a2e7d3c28b39af8481df0bbd0875d7038cff497ab34758a6364056",
+      "rawFilename": "tdm-source-query-en.png",
+      "method": "Actual authenticated production browser/app capture; JPEG transcoded without crop, resize or semantic edits."
+    },
+    {
+      "file": "/falcon/docs/2026-11/tdm-credentials-en-20261115.jpg",
+      "locale": "en",
+      "surface": "falcon",
+      "uiLocale": "en",
+      "contentLanguage": "en",
+      "source": "authenticated-production-umbrella",
+      "workspace": "Umbrella Home",
+      "releaseSha": "6b68ee61b9a93cd8a712aa06e9972b5c480b00c0",
+      "origin": "https://umbrella-falcon.saturnusgo.com",
+      "capturedAt": "2026-11-15T02:45:09.168286+00:00",
+      "viewport": {
+        "width": 1728,
+        "height": 1117,
+        "deviceScaleFactor": 2
+      },
+      "sourceUrl": "https://umbrella-falcon.saturnusgo.com/work/?workspaceId=workspace_umbrella_home&projectId=project_59c48ce2121f461c8e604f35a9706aa3&view=test-data",
+      "redactedQueryKeys": [],
+      "rawSha256": "95381714932aa69aa2e5cc7407df4865d16d23f241596b8fdd9be11f1808aeca",
+      "sha256": "01f4b12430d84c8dfd3c358084b7606a8316c50098e8ecc2e91ba030206cf7d9",
+      "rawFilename": "tdm-credentials-en.png",
+      "method": "Actual authenticated production browser/app capture; JPEG transcoded without crop, resize or semantic edits."
+    },
+    {
+      "file": "/falcon/docs/2026-11/tdm-case-picker-en-20261115.jpg",
+      "locale": "en",
+      "surface": "falcon",
+      "uiLocale": "en",
+      "contentLanguage": "en",
+      "source": "authenticated-production-umbrella",
+      "workspace": "Umbrella Home",
+      "releaseSha": "6b68ee61b9a93cd8a712aa06e9972b5c480b00c0",
+      "origin": "https://umbrella-falcon.saturnusgo.com",
+      "capturedAt": "2026-11-15T03:14:52.664919+00:00",
+      "viewport": {
+        "width": 1728,
+        "height": 1117,
+        "deviceScaleFactor": 2
+      },
+      "sourceUrl": "https://umbrella-falcon.saturnusgo.com/work/?workspaceId=workspace_umbrella_home&projectId=project_59c48ce2121f461c8e604f35a9706aa3&view=cases",
+      "redactedQueryKeys": [],
+      "rawSha256": "3323646c066c52385434ed84f3421b5f4793eddbe1634bc035ef798fc256794b",
+      "sha256": "4a684dd7958942b17b513ddd0aca5db6c3b66e7f8a1ca6d34d25af191083d804",
+      "rawFilename": "tdm-case-picker-en.png",
+      "method": "Actual authenticated production browser/app capture; JPEG transcoded without crop, resize or semantic edits."
     }
   ]
 }

@@ -3964,6 +3964,102 @@
       "sha256": "76e63fb5f57dd691c6257786fb7a732ac3bbc200b9c4d62f1c9e8536cdd776b0",
       "rawFilename": "linear.app_mercury-rucks_settings_api_webhooks_new.png",
       "method": "Actual authenticated Linear browser capture; JPEG transcoded without crop, resize or semantic edits."
+    },
+    {
+      "file": "/falcon/docs/2026-11-ru/tdm-workspace-ru-20261115.jpg",
+      "locale": "ru",
+      "surface": "falcon",
+      "uiLocale": "ru",
+      "contentLanguage": "mixed",
+      "languageException": "Russian Falcon UI with unchanged English synthetic example and resource names: Payment boundary values, payment_boundaries, Boundary scenarios. No secret values are displayed.",
+      "source": "authenticated-production-umbrella",
+      "workspace": "Umbrella Home",
+      "releaseSha": "6b68ee61b9a93cd8a712aa06e9972b5c480b00c0",
+      "origin": "https://umbrella-falcon.saturnusgo.com",
+      "capturedAt": "2026-11-15T03:05:56.123814+00:00",
+      "viewport": {
+        "width": 1728,
+        "height": 1117,
+        "deviceScaleFactor": 2
+      },
+      "sourceUrl": "https://umbrella-falcon.saturnusgo.com/work/?workspaceId=workspace_umbrella_home&projectId=project_59c48ce2121f461c8e604f35a9706aa3&view=test-data",
+      "redactedQueryKeys": [],
+      "rawSha256": "6639366c895212e9e2faff10850a7236a23630eec24f298b8479c7c6097ef760",
+      "sha256": "8a1fc475a5fe7c0cb5963f8861b5b49795021ddbabe56b6f3e37da2bd5fc33a3",
+      "rawFilename": "tdm-workspace-ru.png",
+      "method": "Actual authenticated production browser/app capture; JPEG transcoded without crop, resize or semantic edits."
+    },
+    {
+      "file": "/falcon/docs/2026-11-ru/tdm-source-query-ru-20261115.jpg",
+      "locale": "ru",
+      "surface": "falcon",
+      "uiLocale": "ru",
+      "contentLanguage": "mixed",
+      "languageException": "Russian Falcon UI with unchanged English synthetic example and resource names: Payment boundary values, payment_boundaries, Boundary scenarios. No secret values are displayed.",
+      "source": "authenticated-production-umbrella",
+      "workspace": "Umbrella Home",
+      "releaseSha": "6b68ee61b9a93cd8a712aa06e9972b5c480b00c0",
+      "origin": "https://umbrella-falcon.saturnusgo.com",
+      "capturedAt": "2026-11-15T03:06:33.136642+00:00",
+      "viewport": {
+        "width": 1728,
+        "height": 1117,
+        "deviceScaleFactor": 2
+      },
+      "sourceUrl": "https://umbrella-falcon.saturnusgo.com/work/?workspaceId=workspace_umbrella_home&projectId=project_59c48ce2121f461c8e604f35a9706aa3&view=test-data",
+      "redactedQueryKeys": [],
+      "rawSha256": "a5d727d5e915ffd4eba3b36a745942141360e5622c820207970fc8106c7d2de5",
+      "sha256": "d384c1e94303c9a11be39803920a185b33b841ba4ece6420d7e5d1f9b27d51d4",
+      "rawFilename": "tdm-source-query-ru.png",
+      "method": "Actual authenticated production browser/app capture; JPEG transcoded without crop, resize or semantic edits."
+    },
+    {
+      "file": "/falcon/docs/2026-11-ru/tdm-credentials-ru-20261115.jpg",
+      "locale": "ru",
+      "surface": "falcon",
+      "uiLocale": "ru",
+      "contentLanguage": "mixed",
+      "languageException": "Russian Falcon UI with unchanged English synthetic example and resource names: Payment boundary values, payment_boundaries, Boundary scenarios. No secret values are displayed.",
+      "source": "authenticated-production-umbrella",
+      "workspace": "Umbrella Home",
+      "releaseSha": "6b68ee61b9a93cd8a712aa06e9972b5c480b00c0",
+      "origin": "https://umbrella-falcon.saturnusgo.com",
+      "capturedAt": "2026-11-15T03:07:09.279144+00:00",
+      "viewport": {
+        "width": 1728,
+        "height": 1117,
+        "deviceScaleFactor": 2
+      },
+      "sourceUrl": "https://umbrella-falcon.saturnusgo.com/work/?workspaceId=workspace_umbrella_home&projectId=project_59c48ce2121f461c8e604f35a9706aa3&view=test-data",
+      "redactedQueryKeys": [],
+      "rawSha256": "d2234189a4c2aa5ff1fcc9ed12a424f3af059e93ba76efb2ae051c958430cb69",
+      "sha256": "c1c4dca0bf3b699721ce37d5cdc45a0234460ae05570e4e676f435f92e1448dc",
+      "rawFilename": "tdm-credentials-ru.png",
+      "method": "Actual authenticated production browser/app capture; JPEG transcoded without crop, resize or semantic edits."
+    },
+    {
+      "file": "/falcon/docs/2026-11-ru/tdm-case-picker-ru-20261115.jpg",
+      "locale": "ru",
+      "surface": "falcon",
+      "uiLocale": "ru",
+      "contentLanguage": "mixed",
+      "languageException": "Russian Falcon UI with unchanged English synthetic example and resource names: Payment boundary values, payment_boundaries, Boundary scenarios. No secret values are displayed.",
+      "source": "authenticated-production-umbrella",
+      "workspace": "Umbrella Home",
+      "releaseSha": "6b68ee61b9a93cd8a712aa06e9972b5c480b00c0",
+      "origin": "https://umbrella-falcon.saturnusgo.com",
+      "capturedAt": "2026-11-15T03:11:15.721196+00:00",
+      "viewport": {
+        "width": 1728,
+        "height": 1117,
+        "deviceScaleFactor": 2
+      },
+      "sourceUrl": "https://umbrella-falcon.saturnusgo.com/work/?workspaceId=workspace_umbrella_home&projectId=project_59c48ce2121f461c8e604f35a9706aa3&view=cases",
+      "redactedQueryKeys": [],
+      "rawSha256": "8aaaf1b26f27f6a22f30926865d4e2cd4647ddc954e6df08362a40011d2b97ec",
+      "sha256": "fd5c58c6434eded31cda0508dbae41728ec5ea1ce6ec66392ac79b5229e0c437",
+      "rawFilename": "tdm-case-picker-ru.png",
+      "method": "Actual authenticated production browser/app capture; JPEG transcoded without crop, resize or semantic edits."
     }
   ]
 }
