@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Falcon · Plan and billing</title>
+</head>
+<body>
+  <p>To open Plan and billing, use the link in Falcon again.</p>
+  <script>
+    (() => {
+      const route = new URLSearchParams(location.hash.slice(1));
+      const [host, ...otherHosts] = route.getAll("host");
+      const company = /^([a-z0-9](?![a-z0-9-]*--)[a-z0-9-]{0,46}[a-z0-9])-falcon\.saturnusgo\.com$/.exec(host)?.[1];
+      const reserved = ["sandbox", "admin", "www", "api", "mail", "support"];
+      if (otherHosts.length || (host !== "tms.saturnusgo.com" && (!company || reserved.includes(company)))) return;
+
+      const target = new URL("/work/", `https://${host}`);
+      const fields = {
+        workspaceId: /^[A-Za-z0-9._:-]{1,128}$/,
+        projectId: /^[A-Za-z0-9._:-]{1,128}$/,
+        lang: /^(?:en|ru)$/,
+      };
+      for (const [name, pattern] of Object.entries(fields)) {
+        const [value, ...rest] = route.getAll(name);
+        if (rest.length || (value !== undefined && !pattern.test(value))) return;
+        if (value) target.searchParams.set(name, value);
+      }
+      target.searchParams.set("view", "config");
+      target.searchParams.set("settings", "billing");
+      location.replace(target.href);
+    })();
+  </script>
+</body>
+</html>
