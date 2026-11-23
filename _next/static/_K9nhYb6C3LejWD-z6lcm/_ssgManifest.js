@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fpartners\u002Fcareers\u002F[id]","\u002Fplatform\u002F[section]","\u002Fru\u002Fplatform\u002F[section]","\u002Fsrc\u002Fmodules\u002Fcore-partners\u002Froutes\u002Fcareers\u002F[id]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
